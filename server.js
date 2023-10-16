@@ -2,7 +2,7 @@
 const express = require("express"),
       dotenv = require("dotenv"),
       cors = require("cors"),
-      const {json,urlencoded} = require("body-parser"),
+      {json,urlencoded} = require("body-parser"),
       morgan = require("morgan");
 
 
